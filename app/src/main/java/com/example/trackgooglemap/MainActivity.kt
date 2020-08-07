@@ -307,4 +307,9 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         this.googleMap = googleMap
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        thread.quitSafely()
+    }
+
 }
