@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrackGoogleMap</string>
+    <string name="loading">Загрузка…</string>
+    <string name="error_message">Не удалось загрузить данные</string>
+    <string name="speed">Скорость: %.1f km/h </string>
+
+
+</resources>
